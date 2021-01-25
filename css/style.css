@@ -92,6 +92,20 @@ body{
   margin: 0 20px;
 }
 
+/* struttura logo e menu */
+.logo, .menu{
+  height:10vh;
+  width:200px;
+  background-color: red;
+}
+.logo{
+  float:left;
+}
+.menu{
+  float:right;
+}
+/* /struttura logo e menu */
+
 /* /layout top-header */
 
 
