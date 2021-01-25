@@ -27,6 +27,7 @@ body{
   width: 100%;
   background-color: red;
   border-bottom: 1px solid black;
+  position:relative;
 }
 .conteiner{
   max-width: 80%;
@@ -34,16 +35,20 @@ body{
   background-color: green;
 }
 .leng-contact, .log-in{
-  height: 10vh;
-  width: 200px;
   background-color: yellow;
   border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .leng-contact{
   float: left;
 }
 .log-in{
   float: right;
+}
+.leng-contact ul li{
+  display: inline-block;
 }
 
 /* /layout top-header */
