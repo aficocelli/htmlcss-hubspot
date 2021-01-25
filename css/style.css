@@ -137,7 +137,7 @@ right: 0;
   height:70vh;
   background-color: #FFF4EF;
   background-image: url('../img/jumbotron.png');
-  background-size: 75%;
+  background-size: 76%;
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -150,5 +150,14 @@ right: 0;
   padding:20px 40px;
 }
 /* /struttura hero */
-
+/* creo div vuoto come separatore colorato */
+header::after{
+  display: block;
+  content: "";
+  height:10vh;
+  background-color: #AFEBE4;
+  border-top:2px solid #32495B;
+  border-bottom:2px solid #32495B;
+}
+/* creo div vuoto come separatore colorato */
 /* /struttura header */
