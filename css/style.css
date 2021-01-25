@@ -23,14 +23,19 @@ body{
 
 .titolo-principale h1{
   font-size: 46px;
+  color: #33475B;
 }
 .titolo-principale p:nth-of-type(1){
   font-size: 14px;
   margin: 40px 0;
+  color: #32495B;
+  line-height: 24px;
+  font-weight: 500;
 }
 .titolo-principale p:last-of-type{
   font-size: 10px;
   margin-top: 40px;
+  color: #32495B;
 }
 /* /layout font */
 
@@ -160,4 +165,5 @@ header::after{
   border-bottom:2px solid #32495B;
 }
 /* creo div vuoto come separatore colorato */
+
 /* /struttura header */
