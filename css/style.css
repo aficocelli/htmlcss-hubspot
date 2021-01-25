@@ -12,7 +12,8 @@ body{
 /* /regole di base */
 
 /* layout font */
-.leng-contact li, .leng-contact li a{
+.leng-contact li, .leng-contact li a,
+.menu li a{
   font-size: 14px;
   color: #32495B;
   text-decoration: none;
@@ -73,7 +74,8 @@ body{
 }
 /* /posizionamento scelta lingua e login */
 
-.leng-contact ul li, .log-in ul li{
+.leng-contact ul li, .log-in ul li,
+.menu ul li{
   display: inline-block;
 }
 .leng-contact li:first-of-type{
@@ -94,15 +96,25 @@ body{
 
 /* struttura logo e menu */
 .logo, .menu{
-  height:10vh;
-  width:200px;
-  background-color: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.logo img {
+  width: 100%;
 }
 .logo{
-  float:left;
+  width:100px;
 }
 .menu{
-  float:right;
+right: 0;
+}
+
+.menu li:not(:last-child){
+  margin-right: 30px;
+}
+.angle-menu{
+  margin-left: 10px;
 }
 /* /struttura logo e menu */
 
