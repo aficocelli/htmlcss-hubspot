@@ -120,5 +120,16 @@ right: 0;
 
 /* /layout top-header */
 
+/* struttura hero */
+.hero{
+  height:70vh;
+  background-color: red;
+  background-image: url('../img/jumbotron.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: right;
+}
+/* /struttura hero */
 
 /* /struttura header */
