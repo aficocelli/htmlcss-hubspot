@@ -10,3 +10,43 @@ body{
 }
 
 /* /regole di base */
+
+/* proprietà clearfix */
+.top-header::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+/* /proprietà clearfix */
+
+/* struttura header */
+
+/* layout top-header */
+.top-header{
+  height: 10vh;
+  width: 100%;
+  background-color: red;
+  border-bottom: 1px solid black;
+}
+.conteiner{
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: green;
+}
+.leng-contact, .log-in{
+  height: 10vh;
+  width: 200px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+.leng-contact{
+  float: left;
+}
+.log-in{
+  float: right;
+}
+
+/* /layout top-header */
+
+
+/* /struttura header */
