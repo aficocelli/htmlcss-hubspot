@@ -20,6 +20,18 @@ body{
   font-weight: 600;
   letter-spacing: -1px;
 }
+
+.titolo-principale h1{
+  font-size: 46px;
+}
+.titolo-principale p:nth-of-type(1){
+  font-size: 14px;
+  margin: 40px 0;
+}
+.titolo-principale p:last-of-type{
+  font-size: 10px;
+  margin-top: 40px;
+}
 /* /layout font */
 
 /* layout button */
@@ -123,12 +135,19 @@ right: 0;
 /* struttura hero */
 .hero{
   height:70vh;
-  background-color: red;
+  background-color: #FFF4EF;
   background-image: url('../img/jumbotron.png');
   background-size: 75%;
   background-repeat: no-repeat;
-  background-position-y: top;
   background-position-x: right;
+}
+.titolo-principale{
+  width:600px;
+  margin-left: 10%;
+  padding-top: 50px
+}
+.button-hero{
+  padding:20px 40px;
 }
 /* /struttura hero */
 
