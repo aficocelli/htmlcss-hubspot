@@ -16,18 +16,32 @@ body{
   font-size: 14px;
   color: #32495B;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -1px;
 }
 /* /layout font */
 
-/* proprietà clearfix */
-.top-header::after{
-  display: block;
-  content: "";
-  clear: both;
+/* layout button */
+
+.button-empty, .button-full{
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 10px 10px;
+  letter-spacing: -0.5px;
+  font-weight: 600;
 }
-/* /proprietà clearfix */
+.button-empty{
+  background-color: #fff;
+  border: 1px solid #FE775A;
+  color: #FE775A;
+}
+.button-full{
+  background-color: #FE775A;
+  color: #fff;
+}
+
+/* /layout button */
 
 /* struttura header */
 
@@ -37,25 +51,29 @@ body{
   width: 100%;
   background-color: #F4F9FD;
   border-bottom: 1px solid #506473;
-  position:relative;
 }
+
+/* posizionamento scelta lingua e login */
 .conteiner{
   max-width: 80%;
+  height:10vh;
   margin: 0 auto;
-  background-color: green;
+  position:relative;
 }
-.leng-contact, .log-in{
+.leng-contact{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
-.leng-contact{
-  float: left;
-}
 .log-in{
-  float: right;
+  position:absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
-.leng-contact ul li{
+/* /posizionamento scelta lingua e login */
+
+.leng-contact ul li, .log-in ul li{
   display: inline-block;
 }
 .leng-contact li:first-of-type{
@@ -64,6 +82,14 @@ body{
 }
 .leng-contact li a{
   padding-left: 20px;
+}
+.search{
+  color: #46BDD0;
+  font-size: 12px;
+}
+
+.log-in li:nth-of-type(2){
+  margin: 0 20px;
 }
 
 /* /layout top-header */
