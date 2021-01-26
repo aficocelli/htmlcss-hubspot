@@ -79,6 +79,16 @@ body{
 .box-1-testo hr{
   margin: 20px 30px;
 }
+
+.testo-premi h2{
+  font-size: 24px;
+  padding: 25px 50px;
+  color:#fff;
+}
+.testo-premi p{
+  font-size: 14px;
+  color:#fff;
+}
 /* /layout font */
 
 /* layout button */
@@ -338,10 +348,9 @@ header::after{
 }
 .testo-premi{
   width:80%;
-  height:300px;
-  background-color:yellow;
-  border:1px solid black;
   margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .griglia-premi{
   width:80%;
@@ -349,9 +358,7 @@ header::after{
   border:1px solid black;
   margin: 0 auto;
 }
-.testo-premi{
-  margin-bottom: 20px;
-}
+
 .box-col-1{
   background-color: red;
   height:200px;
