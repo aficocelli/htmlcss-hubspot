@@ -170,7 +170,7 @@ right: 0;
 header::after{
   display: block;
   content: "";
-  height:10vh;
+  height:60px;
   background-color: #AFEBE4;
   border-top:2px solid #32495B;
   border-bottom:2px solid #32495B;
@@ -180,6 +180,11 @@ header::after{
 /* /struttura header */
 
 /* struttura main */
+
+.product{
+  background-color: #F4F9FD;
+  padding-top: 50px;
+}
 
 /* layout sezione claim e cubo di rubik */
 .img-cubo{
@@ -193,8 +198,40 @@ header::after{
 .claim {
   text-align: center;
   width:60%;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 /* /layout sezione claim e cubo di rubik */
+
+/* layout row crm */
+.row-product{
+  width: 80%;
+  background-color: red;
+  margin:0 auto;
+}
+
+/* applico proprietà clearfix */
+.row-product::after{
+  display:block;
+  content: "";
+  clear:both;
+}
+/* /applico proprietà clearfix */
+
+.box-book{
+  width:30%;
+  height:200px;
+  background-color: yellow;
+  border: 1px solid black;
+  float:left;
+}
+.box-crm{
+  width:70%;
+  height:200px;
+  background-color: yellow;
+  border: 1px solid black;
+  float:left;
+}
+/* /layout row crm */
 
 /* /struttura main */
