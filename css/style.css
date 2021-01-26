@@ -7,6 +7,7 @@
 }
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #32495B;
 }
 
 /* /regole di base */
@@ -37,7 +38,7 @@ body{
   margin-top: 40px;
   color: #32495B;
 }
-.claim h3{
+.claim h2{
   font-size: 28px;
   color: #32495B;
   margin-bottom: 25px;
@@ -47,6 +48,28 @@ body{
   font-size: 14px;
   color: #32495B;
   line-height: 28px;
+}
+.box-crm h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.box-crm p{
+  font-size: 14px;
+  line-height: 28px;
+}
+.box-crm h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.box-crm ul li{
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.box-crm ul li i{
+  color: #FE775A;
+  margin-right: 15px;
 }
 /* /layout font */
 
@@ -219,18 +242,24 @@ header::after{
 }
 /* /applico proprietà clearfix */
 
+/* creo box che contiene img e button */
 .box-book{
   width:30%;
   float:left;
   text-align: center;
+  margin-right: 5%;
 }
+/* /creo box che contiene img e button */
+
+/* box contenente testo hubspot crm */
 .box-crm{
-  width:70%;
-  /* height:200px;
-  background-color: yellow;
-  border: 1px solid black; */
+  width:60%;
   float:left;
+  margin: 30px 0;
 }
+/* /box contenente testo hubspot crm */
+
+/* fomrattazione immagine book */
 .img-book{
   width:150px;
   margin:10px auto;
@@ -239,9 +268,28 @@ header::after{
 .img-book img{
   width:100%;
 }
+/* /fomrattazione immagine book */
+
+/* formattazione button book */
 .box-book .button-full{
   padding: 15px 30px;
 }
+/* /formattazione button book */
+
+/* formattazione testo box free crm */
+.box-crm h4, .box-crm hr {
+  display:inline-block;
+}
+.box-crm hr {
+  width:350px;
+  vertical-align: middle;
+  margin-left: 60px;
+}
+.box-crm ul li{
+  display:inline-block;
+}
+/* /formattazione testo box free crm */
+
 /* /layout row crm */
 
 /* /struttura main */
