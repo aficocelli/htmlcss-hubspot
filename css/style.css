@@ -344,7 +344,7 @@ header::after{
 
 /* layout sezione premi vinti */
 .premi{
-  background-color:lightblue;
+  background-image: linear-gradient(to right, #00A8B9 , #00B9A8);
 }
 .testo-premi{
   width:80%;
