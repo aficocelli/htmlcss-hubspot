@@ -89,6 +89,17 @@ body{
   font-size: 14px;
   color:#fff;
 }
+.box-col-1{
+  color:#fff;
+}
+.box-col-1 p:first-of-type{
+  font-size: 44px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.box-col-1 p:last-of-type{
+  font-size: 12px;
+}
 /* /layout font */
 
 /* layout button */
@@ -354,17 +365,17 @@ header::after{
 }
 .griglia-premi{
   width:80%;
-  background-color:yellow;
   border:1px solid black;
   margin: 0 auto;
 }
 
 .box-col-1{
-  background-color: red;
   height:200px;
   width:25%;
   border:1px solid black;
   float:left;
+  text-align: center;
+  padding: 25px 0;
 }
 /* applico clearfix */
 .col-1::after{
@@ -373,6 +384,18 @@ header::after{
   clear:both;
 }
 /* /applico clearfix */
+
+/* struttura immagini nella griglia */
+.img-griglia{
+  height:50px;
+  width:50px;
+  margin: 0 auto;
+}
+.img-griglia img{
+  width:100%;
+  object-fit: contain;
+}
+/* /struttura immagini nella griglia */
 /* /layout sezione premi vinti */
 
 
