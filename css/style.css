@@ -332,4 +332,41 @@ header::after{
 
 /* /layout row crm */
 
+/* layout sezione premi vinti */
+.premi{
+  background-color:lightblue;
+}
+.testo-premi{
+  width:80%;
+  height:300px;
+  background-color:yellow;
+  border:1px solid black;
+  margin: 0 auto;
+}
+.griglia-premi{
+  width:80%;
+  background-color:yellow;
+  border:1px solid black;
+  margin: 0 auto;
+}
+.testo-premi{
+  margin-bottom: 20px;
+}
+.box-col-1{
+  background-color: red;
+  height:200px;
+  width:25%;
+  border:1px solid black;
+  float:left;
+}
+/* applico clearfix */
+.col-1::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* /applico clearfix */
+/* /layout sezione premi vinti */
+
+
 /* /struttura main */
