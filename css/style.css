@@ -206,8 +206,9 @@ header::after{
 /* layout row crm */
 .row-product{
   width: 80%;
-  background-color: red;
   margin:0 auto;
+  padding: 30px 30px;
+  border:1px solid black;
 }
 
 /* applico proprietà clearfix */
@@ -220,17 +221,26 @@ header::after{
 
 .box-book{
   width:30%;
-  height:200px;
-  background-color: yellow;
-  border: 1px solid black;
   float:left;
+  text-align: center;
 }
 .box-crm{
   width:70%;
-  height:200px;
+  /* height:200px;
   background-color: yellow;
-  border: 1px solid black;
+  border: 1px solid black; */
   float:left;
+}
+.img-book{
+  width:150px;
+  margin:10px auto;
+  padding:15px 0;
+}
+.img-book img{
+  width:100%;
+}
+.box-book .button-full{
+  padding: 15px 30px;
 }
 /* /layout row crm */
 
