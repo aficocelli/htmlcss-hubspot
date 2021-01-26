@@ -37,6 +37,17 @@ body{
   margin-top: 40px;
   color: #32495B;
 }
+.claim h3{
+  font-size: 28px;
+  color: #32495B;
+  margin-bottom: 25px;
+}
+
+.claim p {
+  font-size: 14px;
+  color: #32495B;
+  line-height: 28px;
+}
 /* /layout font */
 
 /* layout button */
@@ -172,13 +183,17 @@ header::after{
 
 /* layout sezione claim e cubo di rubik */
 .img-cubo{
-  height:200px;
-  width:200px;
-  background-color: red;
+  height: 160px;
+  width: 200px;
   margin: 0 auto;
+}
+.img-cubo img{
+  width: 100%;
 }
 .claim {
   text-align: center;
+  width:60%;
+  margin: 50px auto;
 }
 /* /layout sezione claim e cubo di rubik */
 
