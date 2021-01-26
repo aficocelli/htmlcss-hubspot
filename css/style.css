@@ -387,12 +387,13 @@ header::after{
 /* struttura immagini nella griglia */
 .img-griglia{
   height:50px;
-  width:50px;
+  width:100px;
   margin: 0 auto;
 }
 .img-griglia img{
   width:100%;
-  object-fit: contain;
+  height:100%;
+  object-fit: scale-down;
 }
 .top-col {
   border-bottom:1px solid #fff;
