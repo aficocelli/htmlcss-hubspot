@@ -365,14 +365,13 @@ header::after{
 }
 .griglia-premi{
   width:80%;
-  border:1px solid black;
   margin: 0 auto;
+  padding: 25px 0;
 }
 
 .box-col-1{
   height:200px;
   width:25%;
-  border:1px solid black;
   float:left;
   text-align: center;
   padding: 25px 0;
@@ -395,7 +394,15 @@ header::after{
   width:100%;
   object-fit: contain;
 }
+.top-col {
+  border-bottom:1px solid #fff;
+}
+.col-1 .box-col-1:not(:last-child){
+  border-right:1px solid #fff;
+}
 /* /struttura immagini nella griglia */
+
+
 /* /layout sezione premi vinti */
 
 
