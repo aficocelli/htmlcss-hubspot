@@ -230,7 +230,6 @@ header::after{
 .row-product{
   width: 80%;
   margin:0 auto;
-  padding: 30px 30px;
   border:1px solid black;
 }
 
@@ -289,6 +288,19 @@ header::after{
   display:inline-block;
 }
 /* /formattazione testo box free crm */
+
+/* formattazione 3 box in riga */
+.box-1, .box-2, .box-3{
+  width: calc( (100% - 40px) / 3);
+  height:200px;
+  background-color: red;
+  border: 1px solid black;
+  float:left;
+}
+.box-2{
+  margin: 0 20px;
+}
+/* /formattazione 3 box in riga */
 
 /* /layout row crm */
 
