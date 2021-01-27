@@ -562,7 +562,16 @@ footer{
   background-color: #DADEE0;
 }
 .footer-list ul li:nth-of-type(7){
-  margin-top:20px;
+  margin:20px 0;
 }
 /* /applico clearfix */
+
+/* struttura link social */
+.link-social li{
+  color:#fff;
+  display:inline-block;
+  margin-right: 20px;
+}
+/* /struttura link social */
+
 /* /struttura footer */
