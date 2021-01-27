@@ -104,6 +104,13 @@ body{
 .box-col-1 span{
   font-weight: normal;
 }
+
+.customers h3{
+  font-size: 48px;
+}
+.customers p{
+  font-size: 14px;
+}
 /* /layout font */
 
 /* layout button */
@@ -414,14 +421,22 @@ header::after{
   width: 80%;
   height:400px;
   margin: 0 auto;
-  background-color:red;
+  
+  text-align: center;
+  margin-top: 40px;
 }
-.customers, .logo-partner{
-  width:50%;
+.logo-partner{
+  width:70%;
   height:200px;
   background-color: yellow;
   border:1px solid black;
   float:left;
+}
+.customers{
+  width:30%;
+  height:200px;
+  float:left;
+  padding: 0 55px;
 }
 /* applico proprietà clearfix */
 .conteiner-partner::after{
