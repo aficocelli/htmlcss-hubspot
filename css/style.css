@@ -114,17 +114,18 @@ body{
   padding-left: 26px;
 }
 .text-growing h3{
-  font-size: 22px;
+  font-size: 24px;
+  padding-top: 40px;
 }
 .text-growing p:nth-of-type(1){
   font-size: 12px;
-  margin: 30px 0;
+  margin: 40px 0;
   color: #32495B;
   line-height: 24px;
 }
 .text-growing p:last-of-type{
   font-size: 10px;
-  margin-top: 40px;
+  margin-top: 50px;
   color: #32495B;
 }
 /* /layout font */
@@ -433,9 +434,14 @@ header::after{
 /* /layout sezione premi vinti */
 
 /* struttura sezione partner */
-.conteiner-partner, .conteiner-start-growing{
+.conteiner-partner{
   width: 80%;
   margin: 40px auto;
+  text-align: center;
+}
+.conteiner-start-growing{
+  width: 80%;
+  margin: 80px auto;
   text-align: center;
 }
 .logo-partner{
@@ -484,11 +490,16 @@ header::after{
 
 /* struttura testimonial */
 .img-testimonial{
-  height:200px;
   width:30%;
-  background-color: yellow;
-  border:1px solid black;
+  height:400px;
   float:right;
+  margin-left: 25%;
+  margin-right:10%;
+}
+.img-testimonial img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
 }
 .text-growing{
   text-align: left;
