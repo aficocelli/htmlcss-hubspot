@@ -534,14 +534,11 @@ footer{
   width:80%;
   height:400px;
   margin: 0 auto;
-  background-color:yellow;
 }
 .footer-list{
   height:200px;
   width:25%;
-  background-color:green;
   float:left;
-  border:1px solid black;
 }
 /* applico clearfix */
 .conteiner-footer::after{
@@ -558,6 +555,14 @@ footer{
 }
 .footer-list{
   margin-top:40px;
+}
+#button-footer{
+  font-size:12px;
+  color:#32495B;
+  background-color: #DADEE0;
+}
+.footer-list ul li:nth-of-type(7){
+  margin-top:20px;
 }
 /* /applico clearfix */
 /* /struttura footer */
