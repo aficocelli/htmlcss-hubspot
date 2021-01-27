@@ -55,7 +55,7 @@ body{
   margin-bottom: 20px;
 }
 .box-crm p, .box-1-testo p{
-  font-size: 14px;
+  font-size: 12px;
   line-height: 28px;
 }
 .box-crm h4, .box-1-testo h4{
@@ -78,7 +78,7 @@ body{
   list-style: none;
 }
 .box-1-testo hr{
-  margin: 20px 30px;
+  margin: 35px 30px;
 }
 
 .testo-premi h2{
@@ -327,6 +327,7 @@ right: 0;
   float:left;
   text-align: center;
   margin-right: 5%;
+  padding-top: 25px;
 }
 /* /creo box che contiene img e button */
 
@@ -340,8 +341,8 @@ right: 0;
 
 /* fomrattazione immagine book */
 .img-book{
-  width:150px;
-  height:150px;
+  width:100px;
+  height:100px;
   margin:10px auto;
   padding:15px 0;
 }
@@ -376,7 +377,7 @@ right: 0;
 .box-1, .box-2, .box-3{
   width: calc( (100% - 40px) / 3);
   float:left;
-  padding-bottom: 40px;
+  padding: 35px 50px;
   background-color: #fff;
   box-shadow: 0px 0px 4px 1px lightgrey;
 }
@@ -508,7 +509,7 @@ right: 0;
 /* struttura testimonial */
 .img-testimonial{
   width:30%;
-  height:400px;
+  height:350px;
   float:right;
   margin-left: 25%;
   margin-right:10%;
