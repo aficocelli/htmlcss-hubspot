@@ -140,7 +140,10 @@ body{
   color:#BDC9D5;
   text-decoration: none;
 }
-
+.logo-copy p{
+  font-size: 12px;
+  color:#fff;
+}
 
 /* /layout font */
 
@@ -595,20 +598,25 @@ footer hr{
 .final-logo{
   width:80%;
   height:100px;
-  background-color:yellow;
   margin: 0 auto;
 }
 .logo-copy{
-  width:25%;
+  width:20%;
   height:50px;
   float:left;
-  background-color:green;
 }
 .privacy{
   width:25%;
   height:50px;
   float: right;
   background-color:green;
+}
+
+/* applico clearfix */
+.final-logo::after{
+  display:block;
+  content:"";
+  clear:both;
 }
 /* /struttura logo finale e privacy */
 
