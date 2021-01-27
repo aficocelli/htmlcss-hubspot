@@ -407,8 +407,29 @@ header::after{
 }
 /* /struttura immagini nella griglia */
 
-
 /* /layout sezione premi vinti */
 
+/* struttura sezione partner */
+.conteiner-partner{
+  width: 80%;
+  height:400px;
+  margin: 0 auto;
+  background-color:red;
+}
+.customers, .logo-partner{
+  width:50%;
+  height:200px;
+  background-color: yellow;
+  border:1px solid black;
+  float:left;
+}
+/* applico proprietà clearfix */
+.conteiner-partner::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+/* /applico proprietà clearfix */
+/* /struttura sezione partner */
 
 /* /struttura main */
