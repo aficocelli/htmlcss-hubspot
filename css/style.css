@@ -111,6 +111,21 @@ body{
 .customers p{
   font-size: 14px;
 }
+.text-growing h3{
+  font-size: 22px;
+}
+.text-growing p:nth-of-type(1){
+  font-size: 14px;
+  margin: 30px 0;
+  color: #32495B;
+  line-height: 24px;
+  font-weight: 500;
+}
+.text-growing p:last-of-type{
+  font-size: 10px;
+  margin-top: 40px;
+  color: #32495B;
+}
 /* /layout font */
 
 /* layout button */
@@ -417,13 +432,10 @@ header::after{
 /* /layout sezione premi vinti */
 
 /* struttura sezione partner */
-.conteiner-partner{
+.conteiner-partner, .conteiner-start-growing{
   width: 80%;
-  height:400px;
-  margin: 0 auto;
-
+  margin: 40px auto;
   text-align: center;
-  margin-top: 40px;
 }
 .logo-partner{
   width:50%;
@@ -432,7 +444,6 @@ header::after{
 }
 .customers{
   width:30%;
-  height:200px;
   float:left;
   padding: 0 55px;
 }
@@ -454,7 +465,6 @@ header::after{
   width:25%;
   float:left;
   padding: 0 15px;
-
 }
 .logo-1 img{
   width:100%;
@@ -463,13 +473,28 @@ header::after{
 }
 
 /* applico clearfix */
-.row-logo{
+.row-logo::after, .conteiner-start-growing::after{
   display:block;
   content:"";
   clear:both;
 }
 /* /applico clearfix */
 /* /struttura loghi partner */
+
+/* struttura testimonial */
+.img-testimonial{
+  height:200px;
+  width:50%;
+  background-color: yellow;
+  border:1px solid black;
+  float:left;
+}
+.text-growing{
+  text-align: left;
+  width:50%;
+  float:left;
+}
+/* /struttura testimonial */
 /* /struttura sezione partner */
 
 /* /struttura main */
