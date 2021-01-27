@@ -128,6 +128,20 @@ body{
   margin-top: 50px;
   color: #32495B;
 }
+.footer-list ul li:first-of-type
+{
+  font-size: 14px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom:20px;
+}
+.footer-list ul li a{
+  font-size: 14px;
+  color:#BDC9D5;
+  text-decoration: none;
+}
+
+
 /* /layout font */
 
 /* layout button */
@@ -534,6 +548,16 @@ footer{
   display:block;
   content:"";
   clear:both;
+}
+
+.footer-list ul{
+  list-style-type: none;
+}
+.footer-list ul li{
+  margin-bottom:10px;
+}
+.footer-list{
+  margin-top:40px;
 }
 /* /applico clearfix */
 /* /struttura footer */
