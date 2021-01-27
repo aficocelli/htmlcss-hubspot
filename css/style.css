@@ -597,19 +597,18 @@ footer hr{
 /* struttura logo finale e privacy */
 .final-logo{
   width:80%;
-  height:100px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 .logo-copy{
   width:20%;
-  height:50px;
   float:left;
 }
 .privacy{
   width:25%;
-  height:50px;
   float: right;
-  background-color:green;
+  text-align: right;
+  padding-top:10px;
 }
 
 /* applico clearfix */
@@ -617,6 +616,14 @@ footer hr{
   display:block;
   content:"";
   clear:both;
+}
+.privacy a{
+  text-decoration: none;
+  color:#BECAD7;
+  font-size: 12px;
+}
+.privacy a:first-of-type{
+  margin-right:15px;
 }
 /* /struttura logo finale e privacy */
 
