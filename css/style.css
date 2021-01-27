@@ -100,6 +100,10 @@ body{
 .box-col-1 p:last-of-type{
   font-size: 12px;
 }
+
+.box-col-1 span{
+  font-weight: normal;
+}
 /* /layout font */
 
 /* layout button */
