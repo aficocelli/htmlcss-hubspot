@@ -135,7 +135,7 @@ body{
   color:#fff;
   margin-bottom:20px;
 }
-.footer-list ul li a{
+.footer-list ul li a, .lingue ul li a{
   font-size: 14px;
   color:#BDC9D5;
   text-decoration: none;
@@ -527,7 +527,6 @@ header::after{
 
 /* struttura footer */
 footer{
-  height:400px;
   background-color:#32495B;
 }
 .conteiner-footer{
@@ -574,4 +573,22 @@ footer{
 }
 /* /struttura link social */
 
+/* struttura lingue */
+.lingue{
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.lingue li{
+  display:inline-block;
+}
+.lingue li:not(:last-of-type){
+  margin-right:25px;
+}
+footer hr{
+  width:80%;
+  margin: 20px auto;
+
+}
+/* /struttura lingue */
 /* /struttura footer */
