@@ -457,8 +457,16 @@ header::after{
   width:25%;
   background-color:pink;
   border:1px solid black;
-  display:inline-block;
+  float:left;
 }
+
+/* applico clearfix */
+.row-logo{
+  display:block;
+  content:"";
+  clear:both;
+}
+/* /applico clearfix */
 /* /struttura loghi partner */
 /* /struttura sezione partner */
 
