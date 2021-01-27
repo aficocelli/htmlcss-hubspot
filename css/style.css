@@ -588,7 +588,30 @@ footer{
 footer hr{
   width:80%;
   margin: 20px auto;
-
 }
 /* /struttura lingue */
+
+/* struttura logo finale e privacy */
+.final-logo{
+  width:80%;
+  height:100px;
+  background-color:yellow;
+  margin: 0 auto;
+}
+.logo-copy{
+  width:25%;
+  height:50px;
+  float:left;
+  background-color:green;
+}
+.privacy{
+  width:25%;
+  height:50px;
+  float: right;
+  background-color:green;
+}
+/* /struttura logo finale e privacy */
+
+
+
 /* /struttura footer */
