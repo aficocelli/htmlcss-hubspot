@@ -59,16 +59,13 @@ body{
   margin: 0 auto;
   position:relative;
 }
-.leng-contact{
+.leng-contact, .log-in{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 .log-in{
-  position:absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  right: 0;  
 }
 /* /posizionamento scelta lingua e login */
 
