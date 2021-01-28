@@ -20,142 +20,6 @@ body{
 
 /* /regole di base */
 
-/* layout font */
-.leng-contact li, .leng-contact li a,
-.menu li a{
-  font-size: 14px;
-  color: #32495B;
-  text-decoration: none;
-  font-weight: 600;
-  letter-spacing: -1px;
-}
-
-.titolo-principale h1{
-  font-size: 46px;
-  color: #33475B;
-}
-.titolo-principale p:nth-of-type(1){
-  font-size: 16px;
-  margin: 30px 0;
-  color: #32495B;
-  line-height: 24px;
-  font-weight: 500;
-}
-.titolo-principale p:last-of-type{
-  font-size: 10px;
-  margin-top: 40px;
-  margin-bottom:50px;
-  color: #32495B;
-}
-.claim h2{
-  font-size: 28px;
-  color: #32495B;
-  margin-bottom: 25px;
-}
-
-.claim p {
-  font-size: 14px;
-  color: #32495B;
-  line-height: 28px;
-}
-.box-crm h3, .box-1-testo h3{
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-.box-crm p, .box-1-testo p{
-  font-size: 12px;
-  line-height: 28px;
-}
-.box-crm h4, .box-1-testo h4{
-  font-size: 16px;
-  text-transform: uppercase;
-  margin: 15px 0;
-}
-.box-crm ul li{
-  font-size: 14px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-.box-crm ul li i, .box-1-testo ul li i{
-  color: #FE775A;
-  margin-right: 15px;
-}
-
-.box-1-testo ul li{
-  font-size: 14px;
-  list-style: none;
-}
-.box-1-testo hr{
-  margin: 35px 30px;
-}
-
-.testo-premi h2{
-  font-size: 24px;
-  padding: 25px 50px;
-  color:#fff;
-}
-.testo-premi p{
-  font-size: 14px;
-  color:#fff;
-}
-.box-col-1{
-  color:#fff;
-}
-.box-col-1 p:first-of-type{
-  font-size: 44px;
-  font-weight: bold;
-  margin: 10px 0;
-}
-.box-col-1 p:last-of-type{
-  font-size: 12px;
-}
-
-.box-col-1 span{
-  font-weight: normal;
-}
-
-.customers h3{
-  font-size: 48px;
-}
-.customers p{
-  font-size: 14px;
-  text-align:left;
-  padding-left: 26px;
-}
-.text-growing h3{
-  font-size: 24px;
-  padding-top: 40px;
-}
-.text-growing p:nth-of-type(1){
-  font-size: 12px;
-  margin: 40px 0;
-  color: #32495B;
-  line-height: 24px;
-}
-.text-growing p:last-of-type{
-  font-size: 10px;
-  margin-top: 50px;
-  color: #32495B;
-}
-.footer-list ul li:first-of-type
-{
-  font-size: 14px;
-  font-weight: bold;
-  color:#fff;
-  margin-bottom:20px;
-}
-.footer-list ul li a, .lingue ul li a{
-  font-size: 14px;
-  color:#BDC9D5;
-  text-decoration: none;
-}
-.logo-copy p{
-  font-size: 12px;
-  color:#fff;
-}
-
-/* /layout font */
-
 /* layout button */
 
 .button-empty, .button-full{
@@ -228,6 +92,15 @@ body{
   margin: 0 20px;
 }
 
+.leng-contact li, .leng-contact li a,
+.menu li a{
+  font-size: 14px;
+  color: #32495B;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
 /* struttura logo e menu */
 .logo, .menu{
   position: absolute;
@@ -270,6 +143,23 @@ right: 0;
 .button-hero{
   padding:20px 40px;
 }
+.titolo-principale h1{
+  font-size: 46px;
+  color: #33475B;
+}
+.titolo-principale p:nth-of-type(1){
+  font-size: 16px;
+  margin: 30px 0;
+  color: #32495B;
+  line-height: 24px;
+  font-weight: 500;
+}
+.titolo-principale p:last-of-type{
+  font-size: 10px;
+  margin-top: 40px;
+  margin-bottom:50px;
+  color: #32495B;
+}
 /* /struttura hero */
 /* creo div vuoto come separatore colorato */
 .hero::after{
@@ -286,12 +176,11 @@ right: 0;
 
 /* struttura main */
 
+/* layout sezione claim e cubo di rubik */
 .product{
   background-color: #F4F9FD;
   padding-top: 50px;
 }
-
-/* layout sezione claim e cubo di rubik */
 .img-cubo{
   height: 160px;
   width: 200px;
@@ -305,6 +194,17 @@ right: 0;
   width:60%;
   margin: 0 auto;
   padding-bottom: 50px;
+}
+.claim h2{
+  font-size: 28px;
+  color: #32495B;
+  margin-bottom: 25px;
+}
+
+.claim p {
+  font-size: 14px;
+  color: #32495B;
+  line-height: 28px;
 }
 /* /layout sezione claim e cubo di rubik */
 
@@ -396,7 +296,36 @@ right: 0;
   margin-bottom: 40px;
 }
 /* /formattazione 3 box in riga */
+.box-crm h3, .box-1-testo h3{
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.box-crm p, .box-1-testo p{
+  font-size: 12px;
+  line-height: 28px;
+}
+.box-crm h4, .box-1-testo h4{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.box-crm ul li{
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.box-crm ul li i, .box-1-testo ul li i{
+  color: #FE775A;
+  margin-right: 15px;
+}
 
+.box-1-testo ul li{
+  font-size: 14px;
+  list-style: none;
+}
+.box-1-testo hr{
+  margin: 35px 30px;
+}
 /* /layout row crm */
 
 /* layout sezione premi vinti */
@@ -421,6 +350,29 @@ right: 0;
   float:left;
   text-align: center;
   padding: 25px 0;
+  color:#fff;
+}
+.testo-premi h2{
+  font-size: 24px;
+  padding: 25px 50px;
+  color:#fff;
+}
+.testo-premi p{
+  font-size: 14px;
+  color:#fff;
+}
+
+.box-col-1 p:first-of-type{
+  font-size: 44px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.box-col-1 p:last-of-type{
+  font-size: 12px;
+}
+
+.box-col-1 span{
+  font-weight: normal;
 }
 
 /* struttura immagini nella griglia */
@@ -503,6 +455,29 @@ right: 0;
   width:35%;
   float:left;
 }
+.customers h3{
+  font-size: 48px;
+}
+.customers p{
+  font-size: 14px;
+  text-align:left;
+  padding-left: 26px;
+}
+.text-growing h3{
+  font-size: 24px;
+  padding-top: 40px;
+}
+.text-growing p:nth-of-type(1){
+  font-size: 12px;
+  margin: 40px 0;
+  color: #32495B;
+  line-height: 24px;
+}
+.text-growing p:last-of-type{
+  font-size: 10px;
+  margin-top: 50px;
+  color: #32495B;
+}
 /* /struttura testimonial */
 /* /struttura sezione partner */
 
@@ -521,16 +496,11 @@ footer{
   height:200px;
   width:25%;
   float:left;
-}
-
-.footer-list ul{
-  list-style-type: none;
+  margin-top:40px;
 }
 .footer-list ul li{
   margin-bottom:10px;
-}
-.footer-list{
-  margin-top:40px;
+  list-style-type: none;
 }
 #button-footer{
   font-size:12px;
@@ -590,6 +560,22 @@ footer hr{
 }
 .privacy a:first-of-type{
   margin-right:15px;
+}
+.footer-list ul li:first-of-type
+{
+  font-size: 14px;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom:20px;
+}
+.footer-list ul li a, .lingue ul li a{
+  font-size: 14px;
+  color:#BDC9D5;
+  text-decoration: none;
+}
+.logo-copy p{
+  font-size: 12px;
+  color:#fff;
 }
 /* /struttura logo finale e privacy */
 
