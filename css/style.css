@@ -34,10 +34,12 @@ body{
   background-color: #fff;
   border: 1px solid #FE775A;
   color: #FE775A;
+  display: inline-block;
 }
 .button-full{
   background-color: #FE775A;
   color: #fff;
+  display:inline-block;
 }
 
 /* /layout button */
@@ -46,26 +48,24 @@ body{
 
 /* layout top-header */
 .top-header{
-  height: 10vh;
   width: 100%;
   background-color: #F4F9FD;
   border-bottom: 1px solid #506473;
+  padding: 20px 0;
 }
 
 /* posizionamento scelta lingua e login */
 .conteiner{
   max-width: 80%;
-  height:10vh;
   margin: 0 auto;
-  position:relative;
 }
-.leng-contact, .log-in{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.leng-contact{
+  float:left;
+  padding: 10px 0;
 }
+
 .log-in{
-  right: 0;  
+  float:right;
 }
 /* /posizionamento scelta lingua e login */
 
@@ -99,10 +99,16 @@ body{
 }
 
 /* struttura logo e menu */
-.logo, .menu{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.logo{
+  float:left;
+  margin:10px 0;
+}
+.menu{
+float:right;
+margin:10px 0;
+}
+.menu ul {
+  padding: 5px 0;
 }
 .logo img {
   width: 100%;
@@ -110,9 +116,7 @@ body{
 .logo{
   width:100px;
 }
-.menu{
-right: 0;
-}
+
 
 .menu li:not(:last-child){
   margin-right: 30px;
@@ -128,7 +132,7 @@ right: 0;
 .hero{
   background-color: #FFF4EF;
   background-image: url('../img/jumbotron.png');
-  background-size: 76%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -186,19 +190,18 @@ right: 0;
 .img-cubo img{
   width: 100%;
 }
-.claim {
+.product .conteiner {
   text-align: center;
-  width:60%;
-  margin: 0 auto;
   padding-bottom: 50px;
+  width:50%;
 }
-.claim h2{
+.product .conteiner h2{
   font-size: 28px;
   color: #32495B;
   margin-bottom: 25px;
 }
 
-.claim p {
+.product .conteiner p {
   font-size: 14px;
   color: #32495B;
   line-height: 28px;
@@ -484,11 +487,7 @@ right: 0;
 footer{
   background-color:#32495B;
 }
-.conteiner-footer{
-  width:80%;
-  height:400px;
-  margin: 0 auto;
-}
+
 .footer-list{
   height:200px;
   width:25%;
@@ -535,10 +534,11 @@ footer hr{
 /* /struttura lingue */
 
 /* struttura logo finale e privacy */
-.final-logo{
-  width:80%;
-  margin: 0 auto;
-  padding-bottom: 40px;
+footer .conteiner:first-of-type{
+  padding-bottom: 100px;
+}
+footer div:last-child{
+  padding-bottom: 30px;
 }
 .logo-copy{
   width:20%;
